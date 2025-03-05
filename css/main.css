@@ -257,6 +257,11 @@ header ul li a {
 .menu .grid .box .text ul {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.menu .grid .box .text ul li {
+    margin: 0 5px;
 }
 
 .menu .grid .box img {
