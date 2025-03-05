@@ -80,7 +80,7 @@ header ul li a {
 
 @media (max-width: 768px) {
     header ul li a {
-        margin-left: 12px;
+        font-size: 18px;
     }
 }
 /* End Heading */
