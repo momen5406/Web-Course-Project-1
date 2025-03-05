@@ -60,6 +60,12 @@ header .logo img {
     width: 130px;
 }
 
+@media (max-width: 768px) {
+    header .logo img {
+        width: 100px;
+    }
+}
+
 header  ul {
     display: flex;
 }
@@ -70,6 +76,12 @@ header ul li a {
     color: white;
     margin-left: 15px;
     font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    header ul li a {
+        margin-left: 12px;
+    }
 }
 /* End Heading */
 
@@ -225,6 +237,12 @@ header ul li a {
     transition: .3s;
 }
 
+@media (max-width: 768px) {
+    .menu .grid .box .text {
+        bottom: -60px;
+    }
+}
+
 .menu .grid .box:hover .text {
     background-color: #73281a;
     bottom: 0;
@@ -317,5 +335,11 @@ footer {
     padding: 25px 0;
     color: white;
     font-size: 18px;
+}
+
+@media (max-width: 768px) {
+    footer {
+        font-size: 16px;
+    }
 }
 /* End Footer  */
